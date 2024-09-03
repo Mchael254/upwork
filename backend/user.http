@@ -1,0 +1,11 @@
+### register user
+post  http://localhost:5200/user/register
+Content-Type: application/json
+
+{
+
+    "userName": "Daniel",
+    "email": "gamemy177@gmail.com",
+    "password": "Mike123.100#"
+
+}
