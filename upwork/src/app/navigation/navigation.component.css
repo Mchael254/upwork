@@ -1,0 +1,42 @@
+.navigation{
+    height: 23vh;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right,#343434, #484848);
+    transition: background-color 0.3s ease;
+}
+
+.nav ul{
+    display: flex;
+
+}
+.nav ul li {
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav a{
+    text-decoration: none;
+    color: grey;
+}
+.nav a:hover{
+    color: white;
+}
+.login{
+    color: black;
+    border: solid blue 1px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.login:hover{
+    background-color: yellow;
+}

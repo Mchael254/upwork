@@ -1,0 +1,104 @@
+.main {
+    background-color: #00a36c;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    height: 90vh;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer p,label{color: #a7a4a1;}
+
+.details {
+    text-align: center;
+}
+
+.form {
+    /* border: solid red 2px; */
+    display: inline-block;
+    width: 90% ;
+}
+
+.loginContainer form input {
+    width: 90%;
+    padding: 10px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    width: 90%;
+    background-color:#7af904;
+    border: solid 1px #81a5f1;
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #495049;
+}
+
+.checkbox {
+    display: flex;
+    font-size: 11px;
+}
+
+.checkbox input {
+    margin: 0;
+    padding: 0;
+}
+
+.password-container {
+    position: relative;
+    width: 100%; /* Adjust width according to your design */
+
+}
+
+
+.eye-icon {
+    position: absolute;
+    right: 30px; /* Position the icon inside the input field */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the icon */
+    cursor: pointer;
+    color: #666; /* Adjust color to match the input field */
+    font-size: 16px; /* Adjust the size of the icon */
+}
+
+.eye-icon i {
+    border: solid #ccc 1px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 25px; /* Adjust height as needed */
+}
+
+.box{
+    margin-bottom: 20px;
+    color: rgb(194, 191, 191) ;
+}
+
+.error {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}

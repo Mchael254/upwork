@@ -1,0 +1,45 @@
+<div class="main">
+    <div class="loginContainer">
+        <div class="logo">
+            <img src="/assets/upworkk.png">
+        </div>
+        <div class="details">
+            <p>Enter your username / phone <br>
+                number and password to access <br>your account.</p>
+        </div>
+        <div class="form">
+            <form (ngSubmit)="loginUser()" >
+                <div class="error">
+                    <p style="color: red;">{{ registerError }}</p>
+                </div>
+                <label>Username /Phone Number</label>
+                <input type="text" [(ngModel)]="userName" name="userName" placeholder="Enter your Username or Phone Number">
+                <label>Password</label>
+                <div class="password-container">
+                    <input type="password" [(ngModel)]="password" name="password" placeholder="Enter your Password" id="password">
+                    <span class="eye-icon">
+                        <i class="fa-solid fa-eye"></i>
+                    </span>
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" class="regularCheckbox" checked>
+                    <label>Remember me</label>
+                </div>
+                <button type="submit" value="Submit" onclick="loginUser()">Login</button>
+                <br>
+            </form>
+
+        </div>
+       
+        
+    </div>
+
+    <div class="box">
+        <p>Forgot your password</p>
+        <p>Don't have an account? <span><a routerLink="/signup" style="color: white; font-weight: bold;">Register</a></span></p>
+    </div>
+   
+    <p style="color: gray;">2024 © UPWORK FREELANCE WRITERS</p>
+    
+</div>

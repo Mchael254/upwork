@@ -1,0 +1,159 @@
+
+.main {
+    background-color:#e8e4fc;
+    margin-top: 0;
+}
+.navigation{
+    height: 23vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+ 
+}
+.navigation.scrolled {
+    background-color:#e8e4e4;
+    height: 18vh;
+    padding: 3px 0;
+    transition: background-color 0.3s ease, padding 0.7s ease;
+    
+}
+
+.nav ul{
+    display: flex;
+
+}
+.nav ul li {
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: white;
+}
+.login{
+    color: black;
+    border: solid blue 1px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.login:hover{
+    background-color: yellow;
+}
+
+
+.ultraMessage {
+    text-align: center;
+    padding-top: 20px;
+   
+}
+
+
+
+p {
+    line-height: 1.5;
+}
+
+.features {
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #888c84;
+}
+
+.feature {
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature img {
+    width: 50px;
+}
+
+.ultraFeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8e4fc;
+    padding: 10px;
+    margin-top: 20px;
+    /* border: solid red 2px; */
+    padding: 38px;
+}
+.ultraFeatures h3{
+    color: #60697d;
+    font-weight: bold;
+}
+
+.ultraMessage {
+    text-align: center;
+}
+
+.jobs {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.job {
+    display: flex;
+    align-items: flex-start; 
+    width: 45%;
+    margin-top: 15px;
+}
+
+.circle {
+    width: 30px;  
+    height: 30px; 
+    border-radius: 50%;
+    background-color: #888c84; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px; 
+}
+
+.description h4 {
+    margin: 0; 
+    padding: 0;
+}
+.description{
+    width: 85%;
+}
+.description h4{
+    color: #60697d;
+}
+
+.text {
+    font-size: 15px;
+    color: #7dd831;
+    font-weight: bold;
+}
+
+
+
