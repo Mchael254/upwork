@@ -42,6 +42,6 @@ testem.log
 Thumbs.db
 
 #firebase files
-# .firebase
-# firebase.json
-# .firebaserc
+.firebase
+firebase.json
+.firebaserc
